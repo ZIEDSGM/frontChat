@@ -1,0 +1,22 @@
+  
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.65)50%,rgba(0,0,0,0.65)50%),url('./assets/5221116.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: gradient 15s ease infinite;
+    
+
+ }
+ 
+ @keyframes gradient {
+     0% {
+         background-position: 90% 0%;
+     }
+     50% {
+         background-position: 0% 90%;
+     }
+     100% {
+         background-position: 90% 0%;
+     }
+ }
